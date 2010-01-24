@@ -1,0 +1,14 @@
+Provider Monitor - Gerencia conexões PPP.
+	Versão : 0.01_19082009
+	18/08/2009 - Criação. Após acriação do arquivo original em BAT, foram detectado alguns Bugs que seriam mais facilmente solucionados em VBS.
+	20/08/2009 - Adicionada função WriteRlt para a gerar relatórios e efetuar testes. Bugs corrigidos versão praticamente usável... Ainda há necessidade de eliminar a dependência dos scripts ONLINE.CMD e PRVDMON.CMD
+	21/08/2009 - Alguns BugFixes, e eliminação das dependências de scripts externos. (Falta testar!)
+	22/08/2009 - Alguns BugFixes, Problemas ao executar Obj Shell com pipeline. Por causa desses problemas continuamos usando o script PRVDMON.CMD. Apartir de agora os Sábados que forem feriado retornarão todos os seus horários como provedor de Bônus.
+	13/09/2009 - Criei agora Modos de conexão All(A) conecta em todo horário resuzido Night(N) Somente de madrugada. Mudei tambem PRVDMON.CMD para suportar multiplas conexões
+	23/09/2009 - Bugfix: Mudei o PRVDMON.CMD, porém não estava chamando com 2 argumentos, por isso o script ficou uma semana sem trocar a conexão!!!!
+	Versão : 0.04_07102009
+	07/10/2009 - Apartir da versão 0.03 o script passou a se chamar dialupmon.vbs, pois existem alguns programas conhecidos com o nome de pppmon... adicionado o modo Night que só conecta de madrugada;
+	24/01/2010 - Comecei a gerenciar o projeto com git e passei a hospedar uma cópia no GitHub.
+	Roadmap:
+	* Preciso Criar uma função para otimizar, ou seja gastar a franquia restante de uma linha com o provedor de bônus
+	* Melhorar resultado dos Relatórios
