@@ -346,7 +346,6 @@ End Sub
 Sub PPPMon
 		Dim ParamMode
 		'Verifica a necessidade de desligar o PC
-		' Observar se não é necessário eliminar este IF e chamar o Shutdown direto!!!
 		If (InStr(ParamOpt, ModeShutdown) <> 0) Then Shutdown ParamOpt
 		ParamMode = SetMode(ParamOpt)
 		If (WorkHour(Date, Time,ParamMode)) Then
